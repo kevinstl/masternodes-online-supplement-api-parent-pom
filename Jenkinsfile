@@ -10,7 +10,7 @@ node {
    stage 'Build'
    // Run the maven build
 
-   sh "echo NEXUS_PASSWORD: $NEXUS_PASSWORD"
+   sh "echo NEXUS_PASSWORD: ${env.NEXUS_PASSWORD}"
 
    sh "mvn -s settings-custom.xml clean install deploy"
 
