@@ -14,5 +14,5 @@ node {
 
    sh "mvn -s settings-custom.xml clean install deploy"
 
-   ///
+   ////
 }
