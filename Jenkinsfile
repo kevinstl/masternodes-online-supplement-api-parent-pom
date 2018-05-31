@@ -10,7 +10,7 @@ node {
    stage 'Build'
    // Run the maven build
 
-   sh "mvn clean install deploy"
+   sh "mvn -s settings-custom.xml clean install deploy"
 
    //
 }
