@@ -67,7 +67,8 @@ pipeline {
       }
       stage('Promote to Environments') {
         when {
-          branch 'master'
+          //branch 'master'
+          branch 'disable'
         }
         steps {
           dir ('./charts/masternodes-online-supplement-api-parent-pom') {
