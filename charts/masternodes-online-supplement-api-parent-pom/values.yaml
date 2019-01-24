@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: draft
-  tag: dev
+  repository: 10.3.241.166:5000/kevinstl/masternodes-online-supplement-api-parent-pom
+  tag: 0.0.3
   pullPolicy: IfNotPresent
 service:
   name: masternodes-online-supplement-api-parent-pom
